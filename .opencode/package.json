@@ -1,0 +1,14 @@
+{
+  "name": "opencode-claude-code-emulator",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Claude Code Emulator plugin for OpenCode.ai with 5-layer adaptive architecture",
+  "scripts": {
+    "build": "bun build .opencode/plugins/claude-code-emulator.ts --outdir .opencode/dist",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  }
+}

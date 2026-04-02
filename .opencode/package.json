@@ -1,0 +1,5 @@
+{
+  "name": "opencode-local-plugins",
+  "private": true,
+  "type": "module"
+}

@@ -1,0 +1,15 @@
+{
+  "model": "opencode/zen",
+  "plugins": [
+    {
+      "name": "claude-code-emulator",
+      "path": "./.opencode/plugins/claude-code-emulator.ts",
+      "enabled": true
+    }
+  ],
+  "settings": {
+    "autoApprove": false,
+    "showToolCalls": true,
+    "maxContextTokens": 32768
+  }
+}
